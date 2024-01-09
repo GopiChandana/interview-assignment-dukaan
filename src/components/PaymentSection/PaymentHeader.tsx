@@ -16,7 +16,7 @@ const PaymentHeader: React.FC<HeaderProps> = () => {
           Payments
         </Typography>
         <div className="flex gap-x-1">
-          <img src="/svgs/question-outlined.svg" alt="question-outlined" />
+          <img src="/static/assets/question-outlined.svg" alt="question-outlined" />
           <Typography variant="caption" sx={{ color: "#4D4D4D" }}>
             How it works
           </Typography>
@@ -33,8 +33,8 @@ const PaymentHeader: React.FC<HeaderProps> = () => {
         />
       </div>
       <div className="flex gap-x-3">
-        <img src="/svgs/menu.svg" alt="menu" />
-        <img src="/svgs/filled-down-arrow.svg" alt="filled-down-arrow" />
+        <img src="/static/assets/menu.svg" alt="menu" />
+        <img src="/static/assets/filled-down-arrow.svg" alt="filled-down-arrow" />
       </div>
     </div>
   );

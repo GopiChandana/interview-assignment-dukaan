@@ -6,7 +6,7 @@ const SideBarHeader: React.FC<HeaderProps> = () => {
   return (
     <div className="flex gap-x-1 h-fit justify-between w-full gap-x-3">
       <div className="flex gap-x-3">
-        <img src="/svgs/dashboard-profile.svg" alt="dashboard-profile" />
+        <img src="/static/assets/dashboard-profile.svg" alt="dashboard-profile" />
         <div className="w-full">
           <Typography variant="body1" sx={{ fontSize: "0.9375rem" }}>
             Nishyan
@@ -25,7 +25,7 @@ const SideBarHeader: React.FC<HeaderProps> = () => {
         </div>
       </div>
       <div className="my-auto cursor-pointer">
-        <img src="/svgs/down-arrow.svg" alt="down-arrow" />
+        <img src="/static/assets/down-arrow.svg" alt="down-arrow" />
       </div>
     </div>
   );
